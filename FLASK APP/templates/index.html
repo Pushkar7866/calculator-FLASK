@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYTHON CALCULATOR</title>
+</head>
+<body>
+    <h1><b><U>WELCOME TO MY CALCULATOR</U></b></h1>
+    <br>
+
+    <h3><strong>NOTE:FOR SQUARE,CUBE,FACTORIAL & FACTORS ENTER ONLY FIRST NUMBER</strong></h3>
+    <br>
+
+    <form method="POST" action="/">
+         <label>FIRST NUMBER</label>
+         <input type="number" id="NUMBER_1" name="num1" placeholder="Enter first number">
+         <br> 
+
+         <label for="NUMBER_2">SECOND NUMBER</label>
+         <input type="number" id="NUMBER_2" name="num2" placeholder="Enter second number">
+         <br><br>
+
+         <button type="submit" name="operation" value="1">+</button>
+         <button type="submit" name="operation" value="2">-</button>
+         <button type="submit" name="operation" value="4">/</button>
+         <br><br>
+
+         <button type="submit" name="operation"value="3">*</button>
+         <button type="submit" name="operation" value="5">x<sup>2</sub></button>
+         <button type="submit" name="operation" value="6">x<sup>3</sup></button>
+         <br><br>
+
+         <button type="submit" name="operation" value="7">n!</button>
+         <button type="submit" name="operation" value="8">factors</button>
+         <br><br>
+
+         <button type="reset">CLEAR</button>     
+    </form>
+    <h3> RESULT:{{result}}</h3>
+    
+</body>
+</html>
